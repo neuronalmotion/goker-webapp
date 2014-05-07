@@ -1,0 +1,23 @@
+<form role="form">
+  <div class="form-group">
+    <label for="login">Login</label>
+    <input type="text" class="form-control" id="login" placeholder="Your Login" ng-model="user.login" />
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="email" placeholder="Your email" ng-model="user.email" />
+  </div>
+  <button type="submit" class="btn btn-default" ng-click="saveUser()">Save</button>
+</form>
+
+<div>
+  <h2> Leagues </h2>
+  <ul>
+    <li ng-repeat="league in leagues">
+    Name: {{ league.name }}
+    Creation date: {{ league.createdAt }}
+    </li>
+  </ul>
+</div>
+
+
