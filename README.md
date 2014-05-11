@@ -20,9 +20,9 @@ sudo make install
 ```
 sudo npm install -g bower
 ```
-* yeoman (http://yeoman.io/)
+* grunt (http://gruntjs.com/)
 ```
-sudo npm install -g yo
+sudo npm install -g grunt-cli
 ```
 
 ## Installation
