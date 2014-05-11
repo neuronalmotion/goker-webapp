@@ -20,6 +20,10 @@ sudo make install
 ```
 sudo npm install -g bower
 ```
+* grunt (http://gruntjs.com/)
+```
+sudo npm install -g grunt-cli
+```
 
 ## Installation
 ```
