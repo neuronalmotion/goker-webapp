@@ -26,6 +26,7 @@ sudo npm install -g bower
 git clone https://github.com/neuronalmotion/goker-webapp.git
 cd goker-webapp
 bower install # install dependencies
+grunt serve # test your installation
 ```
 
 ## Troubleshootings
