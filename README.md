@@ -3,6 +3,31 @@ goker-webapp
 
 AngularJS webapp of poker games management
 
+## Dependencies
+* Compass (http://compass-style.org/install/)
+```
+sudo apt-get install ruby
+sudo gem install compass
+```
+* npm (http://nodejs.org/)
+```
+cd <node-install-dir>
+./configure
+make
+sudo make install
+```
+* bower (http://bower.io/)
+```
+sudo npm install -g bower
+```
+
+## Installation
+```
+git clone https://github.com/neuronalmotion/goker-webapp.git
+cd goker-webapp
+bower install # install dependencies
+```
+
 ## Troubleshootings
 
 When doing ```grunt serve``` you might have this output:
