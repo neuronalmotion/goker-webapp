@@ -14,12 +14,18 @@ angular.module('goker', [
         'update': { method:'PUT' }
       });
   })
-  .factory('UserLeague', function($resource) {
-    return $resource('/api/users/:userId/leagues',
+  .factory('Users', function($resource) {
+    return $resource('/api/users');
+  })
+  .factory('UserCups', function($resource) {
+    return $resource('/api/users/:userId/cups',
       { userId: '@id' },
       {
         'update': { method:'PUT' }
       });
+  })
+  .factory('Cups', function($resource) {
+    return $resource('/api/cups');
   })
   .config(function ($routeProvider) {
     //$resourceProvider.defaults.stripTrailingSlashes = false;

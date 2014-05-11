@@ -11,11 +11,10 @@
 </form>
 
 <div>
-  <h2> Leagues </h2>
+  <h2> Cups </h2>
   <ul>
-    <li ng-repeat="league in leagues">
-    Name: {{ league.name }}
-    Creation date: {{ league.createdAt }}
+    <li ng-repeat="cup in cups">
+    <b>{{ cup.name }}</b> created {{ cup.createdAt }} (owner is {{ cup.Owner.name }})
     </li>
   </ul>
 </div>

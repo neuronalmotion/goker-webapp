@@ -1,10 +1,8 @@
 'use strict';
 
 angular.module('goker')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, Users, Cups) {
+    $scope.users = Users.query();
+    $scope.cups = Cups.query();
   });
+

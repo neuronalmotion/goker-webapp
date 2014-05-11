@@ -1,4 +1,18 @@
 <div>
-  {{ users }}
+  <h1>Welcome on Goker debug Area!</h1>
+  Users count:  {{ users.length }} </br>
+  <ul>
+    <li ng-repeat="user in users">
+    <b>#{{ user.id }}</b> {{ user.login }}
+    </li>
+  </ul>
+
+
+  Cups count:  {{ cups.length }} </br>
+  <ul>
+    <li ng-repeat="cup in cups">
+    {{ cup.name }}
+    </li>
+  </ul>
 </div>
 
