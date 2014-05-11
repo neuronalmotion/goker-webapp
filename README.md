@@ -20,6 +20,10 @@ sudo make install
 ```
 sudo npm install -g bower
 ```
+* yeoman (http://yeoman.io/)
+```
+sudo npm install -g yo
+```
 
 ## Installation
 ```
